@@ -1,4 +1,5 @@
 import UseEffect from "./Hooks/UseEffect";
+import UseRef from "./Hooks/UseRef";
 import UseState from "./Hooks/UseState";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
       <UseState />
       <hr></hr>
       <UseEffect />
+      <hr></hr>
+      <UseRef />
     </>
   );
 }
