@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.im {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4 {
+  text-align: center;
+}
