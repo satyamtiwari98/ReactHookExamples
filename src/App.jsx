@@ -1,15 +1,13 @@
-import UseEffect from "./Hooks/UseEffect";
-import UseRef from "./Hooks/UseRef";
-import UseState from "./Hooks/UseState";
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <UseState />
-      <hr></hr>
-      <UseEffect />
-      <hr></hr>
-      <UseRef />
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
 }
