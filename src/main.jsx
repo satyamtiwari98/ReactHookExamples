@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UseState from "./Hooks/UseState.jsx";
 import UseRef from "./Hooks/UseRef.jsx";
 import UseEffect from "./Hooks/UseEffect.jsx";
+import UseLocalstoragePage from "./components/Custom_Pages/UseLocalstoragePage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "useRef",
         element: <UseRef />,
+      },
+      {
+        path: "UseLocalstorage",
+        element: <UseLocalstoragePage />,
       },
     ],
   },
